@@ -50,7 +50,7 @@ void *producer(){
 
         }else{
 
-            printf("Buffer is full!!\n");
+            printf("sorry,Buffer is full!!\n");
 
             sleep(5);
 
@@ -82,7 +82,7 @@ void *consumer(){
 
         }else{
 
-            printf("Buffer is empty!!\n");
+            printf("sorry,Buffer is empty!!\n");
 
             sleep(1);
 
